@@ -199,6 +199,12 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+dex_import {
+	name: "camerax-vendor-extensions",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/camerax-vendor-extensions.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "xiaomi",

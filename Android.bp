@@ -477,12 +477,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "WfdCommon",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/WfdCommon.jar"],
-}
-
-dex_import {
 	name: "camerax-vendor-extensions",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/camerax-vendor-extensions.jar"],

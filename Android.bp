@@ -320,7 +320,7 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "xiaomi",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -332,7 +332,7 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleHEXAGON",
 	owner: "xiaomi",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -462,13 +462,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -556,13 +549,6 @@ dex_import {
 	name: "qcrilhook",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
 }
 
